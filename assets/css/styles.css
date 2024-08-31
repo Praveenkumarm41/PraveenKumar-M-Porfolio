@@ -13,7 +13,7 @@
   /*===== Fuente y tipografia =====*/
   --body-font: "Poppins", sans-serif;
   --big-font-size: 2rem;
-  --h2-font-size: 1.25rem;
+  --h2-font-size: 2.25rem;
   --normal-font-size: .938rem;
   --smaller-font-size: .75rem;
   /*===== Margenes =====*/
@@ -27,7 +27,7 @@
 }
 @media screen and (min-width: 968px) {
   :root {
-    --big-font-size: 3.5rem;
+    --big-font-size: 4.5rem;
     --h2-font-size: 2rem;
     --normal-font-size: 1rem;
     --smaller-font-size: .875rem;
@@ -317,9 +317,122 @@ img {
 .skills__img {
   border-radius: 0.5rem;
 }
-
+/* 
 /* ===== WORK =====*/
-.work__container {
+/* General section styling */
+
+.work {
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+
+/* Work description styling */
+/* General section styling */
+.work {
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+}
+
+/* Section title (h2) styling */
+.section-title {
+  font-size: 2.5rem; /* Adjust the size as needed */
+  font-weight: bold;
+  color: var(--first-color);/* #1a73e8; /* Set color to blue */
+  margin-bottom: 20px;
+  text-align: center;
+}
+/* Company info styling */
+.company-info {
+  position: relative; /* Allow positioning of child elements */
+  margin-bottom: 30px; /* Space below the company info */
+}
+
+.company-info p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: blue; /* Set text color to blue */
+  font-weight: bold; /* Make text bold */
+  background-color: #e0f7fa; /* Light background color for highlight */
+  padding: 10px; /* Add padding to highlight area */
+  border-radius: 5px; /* Rounded corners for better appearance */
+  font-size: 1.1rem; /* Slightly larger font size */
+  color: #004d40; /* Darker shade of blue for better contrast */
+}
+
+/* Work description styling */
+.work__description {
+  margin-bottom: 30px;
+}
+
+.work__description h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.work__description h4 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 8px;
+}
+
+.work__description p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--first-color); /* blue; /* Set text color to blue */
+  font-weight: bold; /* Make text bold */
+}
+
+.work__description ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-bottom: 15px;
+}
+
+.work__description li {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #666;
+}
+
+.work__description strong {
+  font-weight: bold;
+  color: #333;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .section-title {
+      font-size: 1.75rem; /* Adjusted for smaller screens */
+  }
+
+  .work__description h3 {
+      font-size: 1.25rem;
+  }
+
+  .work__description h4 {
+      font-size: 1rem;
+  }
+
+  .work__description p,
+  .work__description li {
+      font-size: 0.9rem;
+  }
+}
+
+
+
+/* .work__container {
   row-gap: 2rem;
 }
 .work__img {
@@ -332,7 +445,7 @@ img {
 }
 .work__img img:hover {
   transform: scale(1.1);
-}
+} */ 
 
 /* ===== CONTACT =====*/
 .contact__input {
