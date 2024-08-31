@@ -10,5 +10,5 @@
 
 💙 Join the channel to see more videos like this. [PRAVEENKUMAR M](https://www.linkedin.com/in/praveen-kumar-m-01aab0135/)
 
-![preview img](/preview.png)
+![preview img](/Preview.png)
 
