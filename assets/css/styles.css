@@ -321,7 +321,8 @@ img {
 
 
 /* 
-/* ===== WORK =====*//* General Section Styles */
+/* ===== WORK ===== */
+
 /* General Section Styles */
 .work.section {
   padding: 40px 20px;
@@ -331,7 +332,7 @@ img {
 .section-title {
   text-align: center;
   font-size: 2rem;
-  color:var(--first-color);
+  color: var(--first-color);
   margin-bottom: 30px;
   font-weight: bold; /* Make the <h2> tag bold */
 }
@@ -344,12 +345,13 @@ img {
   padding: 20px;
   background-color: #ffffff;
   border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .company-logo {
-  max-width: 100px;
-  height: auto;
+  width: 100px; /* Fixed width */
+  height: 100px; /* Fixed height */
+  object-fit: contain; /* Maintain aspect ratio within the given dimensions */
   margin-right: 20px;
 }
 
@@ -359,7 +361,7 @@ img {
 
 .company-name {
   font-size: 1.2rem;
-  color:var(--first-color);
+  color: var(--first-color);
   font-weight: bolder;
 }
 
@@ -369,12 +371,12 @@ img {
   padding: 20px;
   background-color: #ffffff;
   border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .projects-title {
   font-size: 1.5rem;
-  color:var(--first-color);
+  color: var(--first-color);
   margin-bottom: 10px;
   font-weight: bold; /* Make the <h3> tag bold */
 }
@@ -385,12 +387,12 @@ img {
   padding: 20px;
   background-color: #ffffff;
   border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .work__description h3 {
   font-size: 1.4rem;
-  color:var(--first-color);
+  color: var(--first-color);
   margin-bottom: 10px;
   font-weight: bold; /* Make the <h3> tag bold */
 }
@@ -409,30 +411,33 @@ img {
 /* Responsive Styles */
 @media (max-width: 768px) {
   .company-info {
-      flex-direction: column;
-      text-align: center;
+    flex-direction: column;
+    text-align: center;
   }
 
   .company-logo {
-      margin: 0 auto 10px;
+    width: 80px; /* Adjusted size for smaller screens */
+    height: 80px; /* Adjusted size for smaller screens */
+    margin: 0 auto 10px;
   }
 
   .projects-title {
-      font-size: 1.3rem;
+    font-size: 1.3rem;
   }
 
   .work__description {
-      padding: 15px;
+    padding: 15px;
   }
 
   .work__description h3 {
-      font-size: 1.2rem;
+    font-size: 1.2rem;
   }
 
   .work__description ul {
-      padding-left: 15px;
+    padding-left: 15px;
   }
 }
+
 
 
 
