@@ -8,7 +8,7 @@
 - Developed first with the Mobile First methodology, then for desktop.
 - Compatible with all mobile devices and with a beautiful and pleasant user interface.
 
-💙 Connect with  [LINKEDIN]:[PRAVEENKUMAR M](https://www.linkedin.com/in/praveen-kumar-m-01aab0135/)
+💙 Connect with [LINKEDIN : PRAVEENKUMAR M](https://www.linkedin.com/in/praveen-kumar-m-01aab0135/)
 
 ![preview img](/Preview.png)
 
