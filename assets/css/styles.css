@@ -317,116 +317,120 @@ img {
 .skills__img {
   border-radius: 0.5rem;
 }
+
+
+
 /* 
-/* ===== WORK =====*/
-/* General section styling */
-
-.work {
+/* ===== WORK =====*//* General Section Styles */
+/* General Section Styles */
+.work.section {
   padding: 40px 20px;
-  background-color: #f9f9f9;
+  background-color: #f4f4f4;
 }
 
 .section-title {
+  text-align: center;
   font-size: 2rem;
-  font-weight: bold;
-  margin-bottom: 20px;
-  text-align: center;
-  color: #333;
-}
-
-/* Work description styling */
-/* General section styling */
-.work {
-  padding: 40px 20px;
-  background-color: #f9f9f9;
-}
-
-/* Section title (h2) styling */
-.section-title {
-  font-size: 2.5rem; /* Adjust the size as needed */
-  font-weight: bold;
-  color: var(--first-color);/* #1a73e8; /* Set color to blue */
-  margin-bottom: 20px;
-  text-align: center;
-}
-/* Company info styling */
-.company-info {
-  position: relative; /* Allow positioning of child elements */
-  margin-bottom: 30px; /* Space below the company info */
-}
-
-.company-info p {
-  font-size: 1rem;
-  line-height: 1.6;
-  color: blue; /* Set text color to blue */
-  font-weight: bold; /* Make text bold */
-  background-color: #e0f7fa; /* Light background color for highlight */
-  padding: 10px; /* Add padding to highlight area */
-  border-radius: 5px; /* Rounded corners for better appearance */
-  font-size: 1.1rem; /* Slightly larger font size */
-  color: #004d40; /* Darker shade of blue for better contrast */
-}
-
-/* Work description styling */
-.work__description {
+  color:var(--first-color);
   margin-bottom: 30px;
+  font-weight: bold; /* Make the <h2> tag bold */
+}
+
+/* Company Info Styles */
+.company-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.company-logo {
+  max-width: 100px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.company-details {
+  flex: 1;
+}
+
+.company-name {
+  font-size: 1.2rem;
+  color:var(--first-color);
+  font-weight: bolder;
+}
+
+/* Projects Section Styles */
+.projects-section {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.projects-title {
+  font-size: 1.5rem;
+  color:var(--first-color);
+  margin-bottom: 10px;
+  font-weight: bold; /* Make the <h3> tag bold */
+}
+
+/* Work Description Styles */
+.work__description {
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 .work__description h3 {
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: #2c3e50;
+  font-size: 1.4rem;
+  color:var(--first-color);
   margin-bottom: 10px;
-}
-
-.work__description h4 {
-  font-size: 1.25rem;
-  font-weight: bold;
-  color: #2c3e50;
-  margin-bottom: 8px;
-}
-
-.work__description p {
-  font-size: 1rem;
-  line-height: 1.6;
-  color: var(--first-color); /* blue; /* Set text color to blue */
-  font-weight: bold; /* Make text bold */
+  font-weight: bold; /* Make the <h3> tag bold */
 }
 
 .work__description ul {
   list-style-type: disc;
   padding-left: 20px;
-  margin-bottom: 15px;
-}
-
-.work__description li {
-  font-size: 1rem;
-  line-height: 1.6;
   color: #666;
 }
 
-.work__description strong {
-  font-weight: bold;
-  color: #333;
+.work__description ul li {
+  font-size: 1rem;
+  margin-bottom: 5px;
 }
 
-/* Responsive design */
+/* Responsive Styles */
 @media (max-width: 768px) {
-  .section-title {
-      font-size: 1.75rem; /* Adjusted for smaller screens */
+  .company-info {
+      flex-direction: column;
+      text-align: center;
+  }
+
+  .company-logo {
+      margin: 0 auto 10px;
+  }
+
+  .projects-title {
+      font-size: 1.3rem;
+  }
+
+  .work__description {
+      padding: 15px;
   }
 
   .work__description h3 {
-      font-size: 1.25rem;
+      font-size: 1.2rem;
   }
 
-  .work__description h4 {
-      font-size: 1rem;
-  }
-
-  .work__description p,
-  .work__description li {
-      font-size: 0.9rem;
+  .work__description ul {
+      padding-left: 15px;
   }
 }
 
