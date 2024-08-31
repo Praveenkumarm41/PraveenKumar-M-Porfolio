@@ -1,5 +1,5 @@
 # Portfolio Responsive Complete
-## LINKEDIN(https://www.linkedin.com/in/praveen-kumar-m-01aab0135/)
+## [LINKEDIN](https://www.linkedin.com/in/praveen-kumar-m-01aab0135/)
 ### Portfolio Responsive Complete
 
 - Responsive Personal Portfolio Website HTML CSS & JavaScript.
